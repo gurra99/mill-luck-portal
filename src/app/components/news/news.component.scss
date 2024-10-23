@@ -1,0 +1,88 @@
+@import "./../../../styles.scss";
+
+.news-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  border-radius: 1rem;
+  padding: $spacing-300;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+  margin-bottom: $spacing-300;
+}
+
+.header {
+  font-size: $fs-base;
+  color: $blue-dark;
+  margin-bottom: $spacing-50;
+  font-weight: $fw-small;
+  line-height: 135%;
+  letter-spacing: 0.32px;
+}
+
+.content-text {
+  font-size: $fs-sm;
+  margin-bottom: $spacing-100;
+  font-style: normal;
+  font-weight: $fw-small;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  z-index: 1;
+}
+
+.button-container {
+  z-index: 1;
+}
+
+:host {
+  align-self: flex-start;
+  @media (min-width: $breakpoint-large) {
+    width: calc(68% - 24px);
+  }
+}
+
+.this-element {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 30%;
+  background-color: $blue-medium-light;
+  clip-path: ellipse(50% 100% at 50% 100%);
+  z-index: 0;
+}
+
+.circle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.gray-circle {
+  background-color: $grey;
+  bottom: 1.25rem;
+  right: 1.87rem;
+  cursor: pointer;
+}
+
+.blue-circle {
+  background-color: $blue-light;
+  bottom: 1.25rem;
+  right: 4rem;
+  cursor: pointer;
+}
+
+.order-1 {
+  background-color: $blue-light;
+}
+
+.order-2 {
+  background-color: $grey;
+}
+
+.container1 {
+  position: flex;
+}

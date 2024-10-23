@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/*==========================================
+=                 COLORS                 =
+==========================================*/
+
+/*  Brand colors  */
+
+$blue-very-light: #f5fcff;
+$blue-light: #0077b2;
+$blue-medium-light: #189bdc;
+$blue: #00334d;
+$blue-dark: #00334d;
+$blue-darkest: #046;
+$black: #000;
+$white: #ffffff;
+$grey-very-light: #f7f8fa;
+$grey-light: #e8edf2;
+$grey: #777f8d;
+$pink: #9c27b0;
+$pink-dark: #7d1f8d;
+$yellow: #ff9800;
+$yellow-dark: #995f08;
+$green-light: #42cb49ff;
+$green: #04a70c;
+$red: #e51c23;
+$red-light: #ffe2e0;
+$red-dark: #b81f14;
+
+/*==========================================
+=              Typography                  =
+==========================================*/
+
+/*  Font families  */
+
+$font-molnlycke-sans: "Open Sans", sans-serif;
+
+/*  Font sizes  */
+
+$fs-xxs: 0.6125rem;
+$fs-xs: 0.87rem;
+$fs-sm: 1rem;
+$fs-base: 1.5rem;
+$fs-large: 3rem;
+$fs-xl: 1.8rem;
+$fs-xxl: 2rem;
+
+/* Heading font sizes  */
+
+$h-1: 1.375rem;
+$h-2: 1.2rem;
+$h-3: 1rem;
+$h-4: 0.75rem;
+
+/* Spacing  */
+
+$spacing-50: 0.5rem;
+$spacing-100: 1rem;
+$spacing-200: 1.5rem;
+$spacing-300: 2rem;
+$spacing-400: 4rem;
+
+/* Font weights  */
+
+$fw-small: 300;
+$fw-regular: 400;
+$fw-semi-bold: 500;
+$fw-bold: 700;
+
+/* Breakpoint  */
+
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;

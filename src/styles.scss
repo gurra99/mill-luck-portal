@@ -1,0 +1,10 @@
+/* Imports all sass files */
+@import "./app/sass/abstract/all";
+@import "./app/sass/base/all";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}

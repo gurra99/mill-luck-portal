@@ -1,0 +1,116 @@
+@import "./../../../styles.scss";
+
+.footer-container {
+  background-color: $blue-dark;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem;
+
+  @media (min-width: $breakpoint-large) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2.5rem 9.4rem;
+  }
+}
+
+.logo-container {
+  @media (min-width: $breakpoint-large) {
+    width: 100%;
+    margin-left: 9.4rem;
+  }
+}
+
+.mill-luck-logo {
+  width: 93px;
+  height: 26px;
+  margin-bottom: $spacing-100;
+}
+
+.content-text {
+  font-size: $fs-sm;
+  color: $white;
+  font-weight: $fw-regular;
+  line-height: 150%;
+  letter-spacing: 0.14px;
+  margin-bottom: $spacing-300;
+
+  @media (min-width: $breakpoint-large) {
+    margin-right: $spacing-300;
+    width: 33.3%;
+    margin-left: 9.4rem;
+  }
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: $white;
+
+  @media (min-width: $breakpoint-large) {
+    flex-direction: row;
+  }
+}
+
+.contact-container {
+  margin-bottom: $spacing-300;
+
+  @media (min-width: $breakpoint-large) {
+    margin-right: 30%;
+  }
+}
+
+.support-container {
+  margin-bottom: $spacing-300;
+}
+
+.section-header {
+  color: $white;
+  font-size: $fs-base;
+  font-weight: $fw-small;
+  line-height: 135%;
+  letter-spacing: 0.24px;
+}
+
+.contact-text {
+  font-size: $fs-sm;
+  font-weight: $fw-regular;
+  line-height: 150%;
+  letter-spacing: 0.14px;
+  margin-block: $spacing-100;
+}
+
+.link-container {
+  display: flex;
+}
+
+.mill-luck-link {
+  font-size: $fs-sm;
+  color: $white;
+  font-weight: $fw-regular;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  margin-right: $spacing-50;
+}
+
+.arrow-mill-luck {
+  color: $white;
+}
+
+.link-assistance-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: $spacing-100;
+}
+
+.all-rights-container {
+  display: flex;
+  justify-content: center;
+  background-color: $blue-darkest;
+  padding: 1.3rem 1.5rem;
+}
+
+.all-rights-text {
+  color: $white;
+  text-align: center;
+  line-height: 180%;
+}

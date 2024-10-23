@@ -1,0 +1,40 @@
+<div>
+  <p class="fs-section-heading">News</p>
+  <div class="news-container">
+    <p class="header" *ngIf="!shouldShowBlueWave">
+      Why Mill Luck AB is such a great company.
+    </p>
+    <p class="header" *ngIf="shouldShowBlueWave">
+      We believe in sustainability at Mill Luck.
+    </p>
+    <p class="content-text">
+      Lorem ipsum dolor sit amet consectetur. Aenean eget tincidunt placerat et
+      nunc euismod maecenas commodo. Tincidunt vitae maecenas consectetur justo
+      nec faucibus elit. ed eget sed molestie quisque nunc. Sollicitudin gravida
+      adipiscing mauris aliquam nec. Proin habitasse sollicitudin ultrices
+      luctus.
+    </p>
+    <div class="button-container">
+      <app-button text="Read more" size="medium"></app-button>
+    </div>
+    <div class="this-element" *ngIf="shouldShowBlueWave"></div>
+    <div class="container1">
+      <div
+        class="circle gray-circle"
+        [ngClass]="{
+          'order-1': shouldShowBlueWave,
+          'order-2': !shouldShowBlueWave
+        }"
+        (click)="toggleBlueWaveVisibility()"
+      ></div>
+      <div
+        class="circle blue-circle"
+        [ngClass]="{
+          'order-1': !shouldShowBlueWave,
+          'order-2': shouldShowBlueWave
+        }"
+        (click)="toggleBlueWaveVisibility()"
+      ></div>
+    </div>
+  </div>
+</div>

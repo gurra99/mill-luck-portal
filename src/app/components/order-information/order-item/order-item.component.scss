@@ -1,0 +1,44 @@
+@import "./../../../../styles.scss";
+
+.order-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: $spacing-100;
+}
+
+.blue-dot-container {
+  width: 2rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: $fs-xs;
+}
+
+.text-container {
+  display: flex;
+  font-weight: $fw-regular;
+  line-height: 150%;
+  letter-spacing: 0.14px;
+
+  > :first-child {
+    margin-right: 0.75rem;
+  }
+}
+
+.state-container {
+  display: flex;
+  padding: 0.3rem 0.75rem;
+  background-color: $red-light;
+  color: $red-dark;
+  border-radius: 3.1rem;
+  margin-top: 0.3rem;
+}
+
+.arrow {
+  margin-left: auto;
+  cursor: pointer;
+}

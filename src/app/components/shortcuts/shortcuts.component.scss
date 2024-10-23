@@ -1,0 +1,38 @@
+@import "./../../../styles.scss";
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  height: 5rem;
+  font-size: $fs-sm;
+  border-radius: 1rem;
+  gap: 1.6rem;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+  margin-bottom: $spacing-300;
+
+  @media (min-width: $breakpoint-large) {
+    gap: 0.8rem;
+    font-size: $fs-xs;
+  }
+
+  @media (min-width: $breakpoint-xlarge) {
+    gap: 1.6rem;
+    font-size: $fs-sm;
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

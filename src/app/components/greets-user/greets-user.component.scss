@@ -1,0 +1,20 @@
+@import "./../../../styles.scss";
+
+.greet-user-container {
+  color: $blue-dark;
+  margin-bottom: $spacing-300;
+
+  @media (min-width: $breakpoint-large) {
+    width: 100%;
+  }
+}
+
+.primary-header {
+  letter-spacing: 0.16px;
+  line-height: 150%;
+  font-size: $fs-sm;
+}
+
+:host {
+  width: 100%;
+}
